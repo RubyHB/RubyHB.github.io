@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ruby Hardy Bullen</title>
+    
+    <!-- Bootstrap core CSS *CDN* -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- RHB CSS file-->
+    <link rel="stylesheet" href="style.css">    
+    <!-- Google APIs -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Palanquin|Open+Sans" rel="stylesheet">
+    
+    <!-- RHB JS file -->
+    <script link rel="js" href="javascript.js"></script>
+  </head>
+  
+  <body>
+    
+    <!-- NAVIGATION-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top d-print">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">LogoHere</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse">
+        
+        <ul class="nav navbar-nav navbar-right mr-auto">
+          <li><a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link disabled" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link disabled" href="#contact">Contact</a></li>
+  
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#about">About</a>
+              <a class="dropdown-item" href="#work">Work</a>
+              <a class="dropdown-item" href="#testimonials">Testimonials</a>
+              <a class="dropdown-item" href="#contact">Contact</a>
+            </div>
+        </ul>
+      </div>
+    </nav>
+<!-- END NAVIGATION-->
+    
+<!-- INTRO-->
+    
+    <section id="headerBox">
+      <div id="headerText">
+        <h1>Ruby Hardy Bullen</h1>
+        <h2>DESIGN | CREATIVITY | ENTHUSIASM</h2>
+      </div>
+    </section>
+    
+<!-- BIO SECTION-->
+    
+    <!--Card-->
+<div class="card card-cascade wider reverse my-4">
+
+    <!--Card image-->
+    <div class="card overlay">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="img-fluid">
+        <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+        </a>
+    </div>
+    <!--/Card image-->
+
+    <!--Card content-->
+    <div class="card-body text-center">
+        <!--Title-->
+        <h4 class="card-title"><strong>My adventure</strong></h4>
+        <h5 class="indigo-text"><strong>Photography</strong></h5>
+
+        <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+        </p>
+
+        <!--Linkedin-->
+        <a class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a>
+        <!--Twitter-->
+        <a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>
+        <!--Dribbble-->
+        <a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>
+
+    </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+
+    
+    
+    
+    
+    <card class="mycard">
+      <div class="card-body">
+        <h3 class="card-title">Card title</h3>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </card>
+    
+<!-- SKILLS, BANNER 3 -->
+    
+    <div class="banner banner3">
+      
+      <div id="skills">
+          <h2>Banner 3 Text</h2>
+      </div>
+      
+    </div>
+      
+<!-- CONTACT -->    
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-5">
+            <form>
+              <div class="form-group">
+                <label>Name: </label>
+                <input class="form-control" type="text" name="" value="" placeholder="Your Name">
+              </div>
+
+              <div class="form-group">
+                <label>Email Address: </label>
+                <input class="form-control" type="text" name="" value="" placeholder="Your Name">
+              </div>
+
+              <div class="form-group">
+                <label>Message: </label>
+                <textarea class="form-control" name="" value="" placeholder="Write me a message :)"></textarea>
+              </div>
+
+              <button class="btn btn-default">Submit</button>
+            </form>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <p>Copyright &copy; 2018 Ruby Hardy Bullen</p>
+    </footer>
+      
+   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+<!-- Google APIs JQuery) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Bootstrap CDN JavaScript) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar', {
+        duration: 2000,
+        origin: 'bottom'
+      });
+      sr.reveal('.work-left', {
+        duration: 2000,
+        origin: 'top',
+        distance: '300'
+      });
+      sr.reveal('.work-right', {
+        duration: 2000,
+        origin: 'right',
+        distance: '300'
+      });
+      sr.reveal('.work-btn', {
+        duration: 2000,
+        delay: 1000,
+        origin: 'bottom',
+      });
+      sr.reveal('#testimonials div', {
+        duration: 2000,
+        origin: 'bottom',
+        viewFactor:0.2
+      });
+    </script>
+       
+    
+  </body>
+
+</html>
