@@ -38,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#cv">CV</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -59,11 +59,12 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-heading">Ruby Hardy Bullen</div>
-          <div class="intro-lead-in">Welcome to my online portfolio :)</div>
+          <div class="intro-lead-in">Welcome to my online portfolio</div>
         </div>
       </div>
     </header>
-
+    
+    
     <!-- Bio Card -->
     <div class="card card-cascade narrower">
       <!--Card image-->
@@ -71,6 +72,7 @@
             <img src="img/about/me1.jpg" class="img-fluid" alt="Material Design for Bootstrap - example photo">
         </div>
         <!--/.Card image-->
+      
         <!--Card content-->
         <div class="card-body">
             <!--Title-->
@@ -80,145 +82,94 @@
           
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://www.behance.net/ruby_hb05a6">
+                <a href="https://www.behance.net/ruby_hb05a6" target="_blank">
                   <i class="fa fa-behance"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/rhardybullen
-">
+                <a href="https://www.linkedin.com/in/rhardybullen" target="_blank">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
-<!--      <a class="btn btn-unique waves-effect waves-light">Button</a>-->
         </div>
-        <!--/.Card content-->
       </div>
     
-    
-    <!-- Skills -->
-    <section id="services">
-      <div class="container">
+        
+    <!-- Skills Icon Grid -->
+    <section class="banner banner-skills" id="skills">
+      <div class="skills container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Skills</h2>
             <h3 class="section-subheading text-muted">Here are some things I know how to do</h3>
           </div>
         </div>
-        
-        <!-- SKILLS = COLLAPSE THIS ROW FOR SPACE -->
-        <div class="row text-center">
-          
-          <div class="col-sm-4 col-lg-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-paint-brush fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Fine Art</h4>
-<!--            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>-->
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Sketching</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-adjust fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Adobe Illustrator</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-crop fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Adobe Photoshop</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-object-group fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Adobe InDesign</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-copy fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Document Design</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-edit fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Project Management</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-crosshairs fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Problem Solving</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-tasks fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Personal Development</h4>
-          </div>
-          
-          <div class="col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-coffee fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Pro Tea-Drinker</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Coding</h4>
-          </div>
-          
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
-            </span>
-              <h4 class="service-heading">Medical Design</h4>
-          </div>
-          
-          
-        </div>
       </div>
+            
+        <div class="row icon-container">
+
+          <span class="col icon-column">
+            <img src="img/icons/rhb-creativity-W.png" style="width:100%">
+          </span> 
+          <span class="col icon-column">
+            <img src="img/icons/rhb-ideation-W.png" style="width:100%">
+          </span> 
+          <span class="col icon-column">
+            <img src="img/icons/rhb-collaboration-W.png" style="width:100%">
+          </span>
+          <span class="col icon-column">
+            <img src="img/icons/rhb-solving-W.png" style="width:100%">
+          </span>
+          <span class="col icon-column">
+            <img src="img/icons/rhb-coding-W.png" style="width:100%">
+          </span>
+          <span class="col icon-column">
+            <img src="img/icons/rhb-graphics-W.png" style="width:100%">
+          </span>
+          <span class="col icon-column">
+            <img src="img/icons/rhb-communication-W.png" style="width:100%">
+          </span>
+          <span class="col icon-column">
+            <img src="img/icons/rhb-medical-W.png" style="width:100%">
+          </span> 
+          <span class="col icon-column">
+            <img src="img/icons/rhb-project-W.png" style="width:100%">
+          </span>
+          <span class="col icon-column">
+            <img src="img/icons/rhb-adobe-W.png" style="width:100%">
+          </span>
+          <span class="col icon-column">
+            <img src="img/icons/rhb-cad-W.png" style="width:100%">
+          </span>
+          <span class="col icon-column">
+            <img src="img/icons/rhb-prototyping-W.png" style="width:100%">
+          </span>
+ 
+        </div>
     </section>
 
+        <!-- Info Card -->
+    <div class="card card-cascade narrower" id="cv">
+
+        <div class="card-body">
+
+            <h5 class="card-title">Work With Me</h5>
+
+            <p class="card-text container-fluid">I am currently open to job opportunities, please click the link below for a copy of my CV and feel free to get in touch!</p>
+          
+             <button class="btn btn-primary btn-xl text-uppercase" id="downloadCVButton" type="submit">Download CV</button>
+
+        </div>
+    </div>
+    
     <!-- Portfolio Grid -->
-    <section class="bg-secondary" id="portfolio">
+    <section class="banner banner-portfolio" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Here are some samples of my work and current projects</h3>
           </div>
         </div>
         <div class="row">
@@ -226,236 +177,91 @@
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Ideation</h4>
-              <p class="text-muted">Concept Development</p>
+              <h4>Project</h4>
+              <p class="text-muted">Design Work</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Learning</h4>
-              <p class="text-muted">New skills</p>
+              <h4>Project</h4>
+              <p class="text-muted">Design Work</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Illustration</h4>
-              <p class="text-muted">Arty hobby</p>
+              <h4>Project</h4>
+              <p class="text-muted">Design Work</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>IKB</h4>
-              <p class="text-muted">brand Project</p>
+              <h4>Project</h4>
+              <p class="text-muted">Design Work</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Healthcare</h4>
-              <p class="text-muted">Design for a medical environment</p>
+              <h4>Project</h4>
+              <p class="text-muted">Design Work</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Doodling</h4>
-              <p class="text-muted">Pro Procrastinator</p>
+              <h4>Project</h4>
+              <p class="text-muted">Design Work</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Education & Experiences</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2007 ~ 2012</h4>
-                    <h4 class="subheading">Testbourne Community School
-</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Secondary School; <br> 12 GCSEs, A*~ B</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2012 ~ 2014</h4>
-                    <h4 class="subheading">Peter Symonds College
-</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">4 A-Levels, 1 AS-Level; <br>
-Product Design, Fine Art, Chemistry, History, General Studies
-</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2013 ~ 2014
-</h4>
-                    <h4 class="subheading">Food Services Advisor
-</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Debenhams, Basingstoke and Uxbridge</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>September 2014</h4>
-                    <h4 class="subheading">Enrolled at Brunel University London</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Accepted to study BA Industrial Design & Technology with Professional Practice</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>June 2014</h4>
-                    <h4 class="subheading">Marketing & Business Administrator</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Tech Data, Basingstoke</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>August 2014</h4>
-                    <h4 class="subheading">Sales & Marketing Administrator</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">The Conair Group Ltd., Fleet</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>November 2016</h4>
-                    <h4 class="subheading">Human-Centred Design Course</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Completed two-day intensive course on HCD, PDD Group Ltd., London</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2016 ~ 2017</h4>
-                    <h4 class="subheading">In-House Designer</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Guy’s and St Thomas’ NHS Foundation Trust,
-London</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Working
-                    <br>Towards My
-                    <br>Design Future!</h4>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
+   
     <!-- Portfolio Modals -->
-
     <!-- Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -470,18 +276,15 @@ London</p>
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="portfolio-title">Project</h2>
+                  <p class="item-intro text-muted">Subheading</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>Project Description Project Description Project Description Project Description Project Description Project Description.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Date: 2017-2018</li>
+                    <li>Subject: Collaboration</li>
+                    <li>Category: Design</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
                 </div>
               </div>
             </div>
@@ -489,7 +292,6 @@ London</p>
         </div>
       </div>
     </div>
-
     <!-- Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -504,18 +306,15 @@ London</p>
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="portfolio-title">Project</h2>
+                  <p class="item-intro text-muted">Subheading</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>Project Description Project Description Project Description Project Description Project Description Project Description.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Date: 2017-2018</li>
+                    <li>Subject: Collaboration</li>
+                    <li>Category: Design</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
                 </div>
               </div>
             </div>
@@ -523,7 +322,6 @@ London</p>
         </div>
       </div>
     </div>
-
     <!-- Modal 3 -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -538,18 +336,15 @@ London</p>
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="portfolio-title">Project</h2>
+                  <p class="item-intro text-muted">Subheading</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>Project Description Project Description Project Description Project Description Project Description Project Description.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>Date: 2017-2018</li>
+                    <li>Subject: Collaboration</li>
+                    <li>Category: Design</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
                 </div>
               </div>
             </div>
@@ -557,7 +352,6 @@ London</p>
         </div>
       </div>
     </div>
-
     <!-- Modal 4 -->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -572,18 +366,15 @@ London</p>
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="portfolio-title">Project</h2>
+                  <p class="item-intro text-muted">Subheading</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>Project Description Project Description Project Description Project Description Project Description Project Description.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Date: 2017-2018</li>
+                    <li>Subject: Collaboration</li>
+                    <li>Category: Design</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
                 </div>
               </div>
             </div>
@@ -591,7 +382,6 @@ London</p>
         </div>
       </div>
     </div>
-
     <!-- Modal 5 -->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -606,18 +396,15 @@ London</p>
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="portfolio-title">Project</h2>
+                  <p class="item-intro text-muted">Subheading</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>Project Description Project Description Project Description Project Description Project Description Project Description.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
+                    <li>Date: 2017-2018</li>
+                    <li>Subject: Collaboration</li>
+                    <li>Category: Design</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
                 </div>
               </div>
             </div>
@@ -625,7 +412,6 @@ London</p>
         </div>
       </div>
     </div>
-
     <!-- Modal 6 -->
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -640,33 +426,38 @@ London</p>
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="portfolio-title">Project</h2>
+                  <p class="item-intro text-muted">Subheading</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>Project Description Project Description Project Description Project Description Project Description Project Description.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                    <li>Date: 2017-2018</li>
+                    <li>Subject: Collaboration</li>
+                    <li>Category: Design</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>    
+    
+        <!-- Info Card -->
+    <div class="card card-cascade narrower">
+        <div class="card-body">
+            <h5 class="card-title">Contact Me</h5>
+            <p class="card-text container-fluid">I would love to hear from you! Here are some ways to contact me</p>
+        </div>
     </div>
 
     <!-- Contact Form -->
-    <section id="contact">
+    <section class="banner banner-contact" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Me</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Send Me a Message</h2>
+            <h3 class="section-subheading text-muted">Questions, Thoughts, General Musings?</h3>
           </div>
         </div>
         <div class="row">
@@ -691,7 +482,6 @@ London</p>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
-                  <div id="success"></div>
                   <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
                 </div>
               </div>
@@ -705,30 +495,20 @@ London</p>
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Ruby Hardy Bullen 2018</span>
-          </div>
-          <div class="col-md-4">
+            <div class="col-md-6">
+              <span class="copyright" style="color:white"><p>Copyright &copy; Ruby Hardy Bullen 2018</p></span>
+            </div>
+          <div class="col-md-6">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.behance.net/ruby_hb05a6" target="_blank">
                   <i class="fa fa-behance"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/rhardybullen" target="_blank">
                   <i class="fa fa-linkedin"></i>
                 </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-<!--                <a href="#">Privacy Policy</a>-->
-              </li>
-              <li class="list-inline-item">
-<!--                <a href="#">Terms of Use</a>-->
               </li>
             </ul>
           </div>
@@ -744,12 +524,46 @@ London</p>
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+    <!-- MY JAVASCRIPT FILE -->
+    <script src="js/rhb-js.js"></script>
+    
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.intro-text', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '500'
+      });
+      sr.reveal('.card', {
+        duration: 1000,
+        delay: 200,
+        origin: 'bottom',
+        distance: '200'
+      });
+      sr.reveal('.icon-column', {
+        duration: 1000,
+        delay: 200,
+        origin: 'left',
+      });
+      sr.reveal('.portfolio-item', {
+        duration: 1000,
+        delay: 200,
+        origin: 'right',
+      });
+      sr.reveal('#testimonials div', {
+        duration: 2000,
+        origin: 'bottom',
+        viewFactor:0.2
+      });
+    </script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
 
   </body>
 
